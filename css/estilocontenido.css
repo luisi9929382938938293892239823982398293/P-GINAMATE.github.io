@@ -1,0 +1,52 @@
+.titulo_Pagina
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    background-color: lightcyan;
+    width: 80%;
+    height: 80%;
+    font-style: normal;
+
+    padding: 1%;
+    border-radius: 35px;
+    text-align: center;
+    box-shadow: 0px 4px 12px 0px #b8a2a2;
+}
+
+.titulo_Pagina h2
+{
+    box-sizing: border-box;
+    font-size: 14px;
+    margin: 2%;
+    color: rgb(69, 150, 177);
+}
+
+.parrafosPaginas
+{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    background-color: lightgrey;
+    margin: 2% 8% 2% 8%;
+    text-align: justify;
+    padding: 4%;
+    border-radius: 16px;
+    box-shadow: 0px 4px 12px 0px;
+}
+
+.parrafosPaginas span input
+{
+    border:  0;
+    border-radius: 8px;
+    width: 80px;
+    background-color: lightsalmon;
+    color: lightyellow;
+    box-sizing: border-box;
+    padding: 4px;
+}
+
+.parrafosPaginas span input:focus
+{
+    outline: none;
+}

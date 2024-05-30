@@ -1,0 +1,49 @@
+body {
+    font-family: Comic Neue;
+    text-align: center;
+}
+
+#numeros {
+    margin-bottom: 20px;
+}
+
+.numero {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000;
+    cursor: grab;
+}
+
+.caja {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.caja:hover {
+    background-color: #f0f0f0;
+}
+
+.drag-over {
+    background-color: #d0d0d0;
+}
+
+.correcto {
+    background-color: #c8e6c9;
+}
+
+.incorrecto {
+    background-color: #ffcdd2;
+}
+
+#verificar{
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    width: 100px;
+    height: 50px;
+}

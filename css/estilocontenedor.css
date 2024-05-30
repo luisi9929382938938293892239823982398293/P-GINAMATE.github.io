@@ -1,0 +1,42 @@
+.contenido_pagina1
+{
+    z-index: 1;
+}
+
+.soltar
+{
+    width: 200px;
+    height: 35px;
+    padding: 10px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.soltar_rojo
+{
+    background-color: red;
+}
+
+.soltar_amarillo
+{
+    background-color: yellow;
+}
+
+.texto
+{
+    display: inline;
+}
+
+.contenerdor_Arrastrable_1
+{
+    width: 50%;
+    height: 20px;
+    border: 1px solid green;
+}
+
+.contenedorJuegoArrastre
+{
+    display: grid;
+    grid: 50% 50% / 50% 50%;
+    background-color: lightpink;
+}

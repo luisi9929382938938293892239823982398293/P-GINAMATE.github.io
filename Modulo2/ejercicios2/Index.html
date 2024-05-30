@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Arrastrar y Soltar</title>
+    <link rel="stylesheet" href="Style.CSS">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>Ejercicio 2: Arrastra las respuestas correctas al cuadro</h1>
+    <h2>2.1 ¿Cual es el PERIMETRO Correcto de la Siguiente Figura?</h2>
+    <p><img src="Imagenes/Imagen1.png" alt=""></p>
+    <div id="textos">
+        <div class="texto" draggable="true" id="incorrecto1"> 6.1cm² </div>
+        <div class="texto" draggable="true" id="incorrecto1"> 18cm </div>
+        <div class="texto" draggable="true" id="correcto2"> 6cm </div>
+        <div class="texto" draggable="true" id="incorrecto2"> 2cm² </div>
+    </div>
+    <div id="cuadro">
+        Arrastra aquí
+    </div>
+    <div id="resultado"></div>
+
+    <br>
+
+    <h2>2.2 ¿Cual es el AREA Correcta de la Siguiente Figura?</h2>
+    <p><img src="Imagenes/Imagen2.png" alt=""></p>
+    <div id="text">
+        <div class="texto" draggable="true" id="correcto1"> 9cm² </div>
+        <div class="texto" draggable="true" id="incorrecto1"> 6cm² </div>
+        <div class="texto" draggable="true" id="incorrecto1"> 9cm </div>
+        <div class="texto" draggable="true" id="incorrecto2"> 12cm </div>
+    </div>
+    <div id="cuadrado">
+        Arrastra aquí
+    </div>
+    <div id="respuesta"></div>
+
+    <script src="JS.JS"></script>
+</body>
+
+</html>

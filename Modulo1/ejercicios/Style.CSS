@@ -1,0 +1,58 @@
+.Juego-Memoria {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    width: 640px;
+    height: 480px;
+    
+  }
+  
+  .Carta-Memoria {
+    width: 80%;
+    height: 80%;
+    margin: 5px;
+    perspective: 1000px;
+    position: relative;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    
+  }
+  
+  .Carta-Memoria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .Carta-Memoria .Cara-Frente {
+    transform: rotateY(180deg);
+    border-radius: 5px;
+  }
+  
+  .Carta-Memoria.flip .Cara-Frente {
+    transform: rotateY(0deg);
+  }
+  
+  .Carta-Memoria.flip .Cara-Espalda {
+    transform: rotateY(180deg);
+    display: none;
+  }
+  
+  .Carta-Memoria .Cara-Espalda {
+    position: absolute; /* Posicionamos la imagen de la parte posterior de forma absoluta */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Imagenes/Back.png'); /* Aquí colocamos la imagen que queremos utilizar */
+    background-size: cover;
+    background-position: center;
+    z-index: 2; /* Aseguramos que la parte posterior esté encima de la parte frontal */
+    border-radius: 5px;
+  }
+  body{
+    font-family: 'Comic Neue',sans-serif;
+  }
+  

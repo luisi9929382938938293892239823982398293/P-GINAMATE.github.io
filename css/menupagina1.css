@@ -1,0 +1,72 @@
+.menu_pagina1 ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.menu_pagina1 ul li
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    text-align: center;
+    width: 80px;
+    list-style: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 0 2% 0 2%;
+    border-radius: 12px;
+}
+
+.menu_pagina1 ul li:hover
+{
+    box-sizing: border-box;
+    width:  82px;
+    box-shadow: 0 2px 2px #e2d4d4;
+
+}
+
+.btn0_menu_pagina
+{
+    background-color: rgb(69, 106, 187);
+    color: rgb(226, 214, 214);
+}
+
+.btn1_menu_pagina
+{
+    background-color: aquamarine;
+    color: rgb(226, 214, 214);
+}
+
+.btn2_menu_pagina
+{
+    background-color: aquamarine;
+    color: rgb(226, 214, 214);
+}
+
+.btn3_menu_pagina
+{
+    background-color: aquamarine;
+    color: rgb(226, 214, 214);
+}
+
+.contenedor_actividades_pagina1
+{
+    background-color: beige;
+    width: 90%;
+    height: 74%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.contenedor_actividades_pagina1_actividad
+{
+    border: 1px solid #864444;
+    position: absolute;
+    display: none;
+    width: 50%;
+    height: 45%;
+}

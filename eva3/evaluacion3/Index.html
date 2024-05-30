@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<link rel="stylesheet" href="Style.CSS">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluacion</title>
+</head>
+
+<body>
+    <h1>Evaluación 1.</h1>
+
+    <form id="quizForm">
+        <div class="question">
+            <h3>1. ¿Cuál es la media aritmética de los siguientes datos: 5, 8, 12, 15, 20?</h3>
+            <label><input type="radio" name="p1" value="a"> A. 10</label>
+            <label><input type="radio" name="p1" value="b"> B. 12</label>
+            <label><input type="radio" name="p1" value="c"> C. 14</label>
+            <label><input type="radio" name="p1" value="d"> D. 15</label>
+        </div>
+
+        <div class="question">
+            <h3>2. ¿Cuál es la mediana del conjunto de datos: 3, 7, 9, 15, 18?</h3>
+            <label><input type="radio" name="p2" value="a"> A. 7</label>
+            <label><input type="radio" name="p2" value="b"> B. 9</label>
+            <label><input type="radio" name="p2" value="c"> C. 12</label>
+            <label><input type="radio" name="p2" value="d"> D. 15</label>
+        </div>
+
+        <div class="question">
+            <h3>3. ¿Cuál es la moda del siguiente conjunto de datos: 4, 8, 4, 6, 9, 4, 6, 9?</h3>
+            <label><input type="radio" name="p3" value="a"> A. 4</label>
+            <label><input type="radio" name="p3" value="b"> B. 6</label>
+            <label><input type="radio" name="p3" value="c"> C. 8</label>
+            <label><input type="radio" name="p3" value="d"> D. 9</label>
+        </div>
+
+        <div class="question">
+            <h3>4. En un conjunto de datos, la varianza es 16. ¿Cuál es la desviación estándar?</h3>
+            <label><input type="radio" name="p4" value="a"> A. 2</label>
+            <label><input type="radio" name="p4" value="b"> B. 4</label>
+            <label><input type="radio" name="p4" value="c"> C. 8</label>
+            <label><input type="radio" name="p4" value="d"> D. 16</label>
+        </div>
+
+        <div class="question">
+            <h3>5. Si el coeficiente de correlación entre dos variables es -0.85, ¿qué se puede decir sobre la relación entre ellas?</h3>
+            <label><input type="radio" name="p5" value="a"> A. Existe una fuerte relación positiva.</label>
+            <label><input type="radio" name="p5" value="b"> B. Existe una débil relación negativa.</label>
+            <label><input type="radio" name="p5" value="c"> C. Existe una fuerte relación negativa.</label>
+            <label><input type="radio" name="p5" value="d"> D. No hay relación.</label>
+        </div>
+
+        <button type="button" onclick="checkAnswers()">Enviar</button>
+    </form>
+
+    <div id="result"></div>
+    <script src="JS.JS"></script>
+</body>
+
+</html>

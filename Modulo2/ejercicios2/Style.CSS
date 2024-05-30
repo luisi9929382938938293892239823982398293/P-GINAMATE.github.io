@@ -1,0 +1,59 @@
+body {
+    font-family: 'Comic Neue',sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#textos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.texto {
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: grab;
+}
+
+#cuadro {
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    border: 2px dashed #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#cuadrado {
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    border: 2px dashed #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+}
+
+#respuesta {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
